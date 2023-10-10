@@ -18,5 +18,5 @@ Debut
 			c<--c+1
 		fin si
 	fin pour		
-	ecrire("le nombre de ces notes superieures a la moyenne de classe est",c,")
+	ecrire("le nombre de ces notes superieures a la moyenne de classe est",c)
 fin
