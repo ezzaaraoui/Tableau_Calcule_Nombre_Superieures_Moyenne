@@ -1,0 +1,22 @@
+algorithme tableau_moyenne
+
+variable
+	tableau T(10):entier
+	i,n,s,c:entier
+
+Debut
+	s<--0
+	pour i <-- 0 a 9 faire 
+		ecrire("donner la note de l'etudiant ",i+1)
+		lire(T(i))
+		s<--s+T(i)
+	fin pour
+	m<--s/10
+	c<--0
+	pour i <-- 0 a 9 faire 
+		si (T(i)>m) alors
+			c<--c+1
+		fin si
+	fin pour		
+	ecrire("le nombre de ces notes superieures a la moyenne de classe est",c,")
+fin
